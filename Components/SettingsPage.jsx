@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-
+import { StatusBar } from "expo-status-bar";
 export const SettingsPage = function () {
     return (
         <View style={defaultSettingsPageStyles.container}>
