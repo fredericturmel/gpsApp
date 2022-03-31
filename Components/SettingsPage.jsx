@@ -1,16 +1,15 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function App() {
+export const SettingsPage = function () {
     return (
-        <View style={defaultAppStyles.container}>
-            <Text>App minimale ReactNative</Text>
+        <View style={defaultSettingsPageStyles.container}>
+            <Text>SettingsPage</Text>
             <StatusBar style="auto" />
         </View>
     );
-}
+};
 
-const defaultAppStyles = StyleSheet.create({
+const defaultSettingsPageStyles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: "#fff",
