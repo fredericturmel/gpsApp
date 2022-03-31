@@ -11,6 +11,7 @@ export const HistoryListPage = function () {
 
 const defaultHistoryListPageStyles = StyleSheet.create({
     container: {
+        marginTop: 25,
         flex: 1,
         backgroundColor: "#fff",
         alignItems: "center",

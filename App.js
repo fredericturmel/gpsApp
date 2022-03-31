@@ -17,7 +17,6 @@ export default function App() {
                 screenOptions={({ route }) => ({
                     tabBarIcon: ({ focused, color, size }) => {
                         let iconName;
-
                         if (route.name === "Home") {
                             iconName = focused ? "home" : "home-outline";
                         } else if (route.name === "HistoryList") {
@@ -47,12 +46,3 @@ export default function App() {
         </NavigationContainer>
     );
 }
-
-const defaultAppStyles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#fff",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-});
